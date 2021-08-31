@@ -13,7 +13,8 @@ public class Kreistest {
 		System.out.println(k.getRadius() + " " + einheit);
 		System.out.println(k.getUmfang() + " " + einheit);
 		System.out.println(k.getFlaeche() + " " + einheit + "²");
-
-	}
-
+		
+		k.setUmfang(k.getUmfang());
+		k.setFlaeche(k.getFlaeche());
+	}	
 }
