@@ -12,12 +12,13 @@ public class EingabTest {
 		String eingabe = JOptionPane
 				.showInputDialog("Geben Sie so schnell wie möglich \n 'Fischers Fritz fischt frische Fische' ein");
 		String soll = "Fischers Fritz fischt frische Fische";
-		if (eingabe.equals(soll)) {
+		if (eingabe != null && eingabe.equals(soll)) {
 			System.out.println("FehlerFrei!");
 			Instant endeDerEingabe = Instant.now();
 			Duration dauer = Duration.between(startEingabeAufforderung, endeDerEingabe);
 			System.out.println(
-					"FehlerFrei! Zeit: " + dauer.toMinutes() + " " + dauer.toSeconds() + " " + dauer.toMillis());
+					"FehlerFrei! Zeit: " + dauer.toMinutes() + " Minuten " + 
+			dauer.toSeconds() + " Sekunden " + dauer.toMillis() + " Milisekunden");
 		} else {
 			System.out.println("Eingabe war falsch");
 		}
