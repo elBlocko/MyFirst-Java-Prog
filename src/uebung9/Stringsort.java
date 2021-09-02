@@ -14,7 +14,8 @@ public class Stringsort {
 		String eingabe2 = JOptionPane.showInputDialog("Txt eingbnäh");
 		
 		
-		 String[] arr = {eingabe0,eingabe1,eingabe2}; Arrays.sort(arr);		 
+		 String[] arr = {eingabe0,eingabe1,eingabe2};
+		 Arrays.sort(arr);		 
 		   Arrays.sort(arr, new Comparator<String>() {
 		        public int compare(String first, String second) {
 		            return first.toLowerCase().compareTo(second.toLowerCase());
