@@ -14,9 +14,9 @@ public class Eingabedauer {
 		Duration dauer = Duration.between(startEingabeAufforderung, endeDerEingabe);
 
 		System.out.println("Dauer nach ISO-8601: " + dauer);
-		System.out.println("Dauer nach in Min: " + dauer.toMinutes());
-		System.out.println("Dauer nach in Sec: " + dauer.getSeconds());
-		System.out.println("Dauer nach in Milis: " + dauer.toMillis());
+		System.out.println("Dauer in Min: " + dauer.toMinutes());
+		System.out.println("Dauer in Sec: " + dauer.getSeconds());
+		System.out.println("Dauer in Milis: " + dauer.toMillis());
 
 	}
 
