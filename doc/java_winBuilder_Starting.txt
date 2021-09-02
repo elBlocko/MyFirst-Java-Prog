@@ -1,0 +1,12 @@
+IDE
+
+help-marketplace
+windowsBuilder
+
+file-new-other
+
+windowsbuilder-swing-jframe
+
+components-contentPane
+Properties
+Layout-absolut
