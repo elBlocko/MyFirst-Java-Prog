@@ -33,12 +33,12 @@ public class Vokalzaehler {
 
 			} // eoswitch
 		} // eofor
-	  System.out.print("Die Eingabe \"" + eingabe + "\" enthält:");
-	  System.out.print(aZaehler + " mal a");
-	  System.out.print(eZaehler + " mal e");
-	  System.out.print(iZaehler + " mal i");
-	  System.out.print(oZaehler + " mal o");
-	  System.out.print(uZaehler + " mal u");
+	  System.out.println("Die Eingabe \"" + eingabe + "\" enthält:");
+	  System.out.println(aZaehler + " mal a");
+	  System.out.println(eZaehler + " mal e");
+	  System.out.println(iZaehler + " mal i");
+	  System.out.println(oZaehler + " mal o");
+	  System.out.println(uZaehler + " mal u");
 	  
 	}	
 }
